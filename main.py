@@ -26,13 +26,12 @@ class Student(object):
         return self.track
 
 class Discipline(object):
-    def __init__(self, title, year, teacher):
+    def __init__(self, title=None, year=None, teacher=None):
+        if title is None:
+            pass
         self.title = title
         self.year = year
         self.teacher = teacher
-
-    def __init__(self):
-        pass
 
     def getTitle(self):
         return self.title
@@ -148,7 +147,6 @@ class mywindow(QtWidgets.QMainWindow):
 
         if(not check):
             return
-
         file = QFile(fileName)
         file.open(QIODevice.ReadOnly | QIODevice.Text)
         val = file.readAll()
@@ -198,6 +196,7 @@ class mywindow(QtWidgets.QMainWindow):
         file = QFile(fileName)
         file.open(QIODevice.WriteOnly | QIODevice.Text)
         stream = QTextStream(file)
+        stream.setCodec("UTF-8")
         stream << outputjson
         stream.flush()
         file.close()

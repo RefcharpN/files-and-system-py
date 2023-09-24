@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <disciplins>
     <disciplin>
-        <title>test</title>
-        <year>test</year>
-        <teacher>test</teacher>
+        <title>efeafea</title>
+        <year>aefeaf</year>
+        <teacher>eafaef</teacher>
     </disciplin>
     <disciplin>
-        <title>test2</title>
-        <year>test2</year>
-        <teacher>test2</teacher>
+        <title>efeafea</title>
+        <year>aefeaf</year>
+        <teacher>eafaef</teacher>
+    </disciplin>
+    <disciplin>
+        <title>efeafea</title>
+        <year>aefeaf</year>
+        <teacher>eafaef</teacher>
+    </disciplin>
+    <disciplin>
+        <title>efeafea</title>
+        <year>aefeaf</year>
+        <teacher>eafaef</teacher>
     </disciplin>
 </disciplins>
